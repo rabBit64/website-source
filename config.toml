@@ -1,0 +1,57 @@
+## Basic Configuration
+
+baseurl = "https://rabBit64.github.io/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Anna Kim"
+title = "Anna Kim"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Anna Kim"
+intro = "Natural Language and Processing(NLP) & AI"
+description = "Now @English Language and @Computer Engineering college student.<br/> \"Keep learning, think originally and make it happen.\""
+authorimage = "me.jpeg"
+dateformat = "Feb 14, 2020"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "rabBit64"
+linkedin = "anna-kim-1b3206180"
+email = "gojh47@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2020. Anna Kim. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "https://medium.com/@Anna_IT"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"

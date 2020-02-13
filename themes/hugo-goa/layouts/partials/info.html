@@ -1,0 +1,8 @@
+<section id="info-pane" class="row text-center info">
+  {{ with .Site.Params.intro }}
+  <h4 class="intro">{{ . | markdownify }}</h4>
+  {{ end }}
+  {{ with .Site.Params.description }}
+  <h5 class="description">{{ . | markdownify }}</h5>
+  {{ end }}
+</section>
